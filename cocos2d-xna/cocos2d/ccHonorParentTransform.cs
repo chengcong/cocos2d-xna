@@ -1,0 +1,13 @@
+using System;
+
+namespace cocos2d
+{
+	public enum ccHonorParentTransform
+	{
+		CC_HONOR_PARENT_TRANSFORM_TRANSLATE = 1,
+		CC_HONOR_PARENT_TRANSFORM_ROTATE = 2,
+		CC_HONOR_PARENT_TRANSFORM_SCALE = 4,
+		CC_HONOR_PARENT_TRANSFORM_SKEW = 8,
+		CC_HONOR_PARENT_TRANSFORM_ALL = 15
+	}
+}

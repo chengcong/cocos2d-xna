@@ -1,0 +1,15 @@
+H:\iOSProjects\XNAProjects\JewelHunter\zlib.net\bin\Debug\zlib.net.dll
+H:\iOSProjects\XNAProjects\JewelHunter\zlib.net\bin\Debug\zlib.net.pdb
+H:\iOSProjects\XNAProjects\JewelHunter\zlib.net\obj\Debug\optimized\
+H:\iOSProjects\XNAProjects\JewelHunter\zlib.net\obj\Debug\zlib.net.dll
+H:\iOSProjects\XNAProjects\JewelHunter\zlib.net\obj\Debug\zlib.net.pdb
+H:\iOSProjects\XNAProjects\JewelHunter\zlib.net\obj\Debug\zlib.net.dll.mdb
+H:\iOSProjects\XNAProjects\JewelHunter\zlib.net\bin\Debug\zlib.net.dll.mdb
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\zlib.net\bin\Debug\zlib.net.dll
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\zlib.net\bin\Debug\zlib.net.pdb
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\zlib.net\obj\Debug\optimized\
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\zlib.net\obj\Debug\zlib.net.csprojResolveAssemblyReference.cache
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\zlib.net\obj\Debug\zlib.net.dll
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\zlib.net\obj\Debug\zlib.net.pdb
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\zlib.net\obj\Debug\zlib.net.dll.mdb
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\zlib.net\bin\Debug\zlib.net.dll.mdb

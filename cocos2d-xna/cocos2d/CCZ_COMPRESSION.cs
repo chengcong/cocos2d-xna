@@ -1,0 +1,12 @@
+using System;
+
+namespace cocos2d
+{
+	public enum CCZ_COMPRESSION
+	{
+		CCZ_COMPRESSION_ZLIB,
+		CCZ_COMPRESSION_BZIP2,
+		CCZ_COMPRESSION_GZIP,
+		CCZ_COMPRESSION_NONE
+	}
+}

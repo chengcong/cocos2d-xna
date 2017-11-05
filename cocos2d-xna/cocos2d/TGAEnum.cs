@@ -1,0 +1,14 @@
+using System;
+
+namespace cocos2d
+{
+	public enum TGAEnum
+	{
+		TGA_OK,
+		TGA_ERROR_FILE_OPEN,
+		TGA_ERROR_READING_FILE,
+		TGA_ERROR_INDEXED_COLOR,
+		TGA_ERROR_MEMORY,
+		TGA_ERROR_COMPRESSED_FILE
+	}
+}

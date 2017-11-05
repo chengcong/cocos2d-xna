@@ -1,0 +1,14 @@
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\cocos2d-xna\bin\Debug\cocos2d-xna.dll
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\cocos2d-xna\bin\Debug\cocos2d-xna.pdb
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\cocos2d-xna\bin\Debug\cocos2d.Framework.dll
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\cocos2d-xna\bin\Debug\CocosDenshion.dll
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\cocos2d-xna\bin\Debug\ICSharpCode.SharpZipLib.Portable.dll
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\cocos2d-xna\bin\Debug\MonoGame.Framework.dll
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\cocos2d-xna\bin\Debug\zlib.net.dll
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\cocos2d-xna\bin\Debug\MonoGame.Framework.xml
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\cocos2d-xna\obj\Debug\optimized\
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\cocos2d-xna\obj\Debug\cocos2d-xna.csprojResolveAssemblyReference.cache
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\cocos2d-xna\obj\Debug\cocos2d-xna.dll
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\cocos2d-xna\obj\Debug\cocos2d-xna.pdb
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\cocos2d-xna\obj\Debug\cocos2d-xna.dll.mdb
+H:\iOSProjects\XNAProjects\libs\cocos2d-xna\cocos2d-xna\bin\Debug\cocos2d-xna.dll.mdb
