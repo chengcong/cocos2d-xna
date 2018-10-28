@@ -9,3 +9,7 @@
 中文支持需要参考https://www.xnadevelop.com/ios/use-chinese-in-monogame/
 
 QQ交流群：https://jq.qq.com/?_wv=1027&k=4BwGEoV
+
+![image](https://github.com/chengcong/cocos2d-xna/blob/master/cocos2d-xna/screenshots/iOS.png)<br>
+![image](https://github.com/chengcong/cocos2d-xna/blob/master/cocos2d-xna/screenshots/Android.png)<br>
+![image](https://github.com/chengcong/cocos2d-xna/blob/master/cocos2d-xna/screenshots/UWP.png)<br>
