@@ -1,49 +1,106 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cocos2d-xna", "cocos2d-xna\cocos2d-xna.csproj", "{E1677C80-06DA-4280-B29B-ED71358AB8D3}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "zlib.net.Shared", "zlib.net.Shared\zlib.net.Shared.shproj", "{BAAE46B0-5347-4F05-9391-4C694E83EBDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cocos2d.Framework", "cocos2d.Framework\cocos2d.Framework.csproj", "{714B95DF-F9C2-4BB8-A34F-267CA46001FD}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CocosDenshion.Shared", "CocosDenshion.Shared\CocosDenshion.Shared.shproj", "{525276FD-E3D0-4190-9BE9-6CD6997A8F5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosDenshion", "CocosDenshion\CocosDenshion.csproj", "{C3DE77C7-0972-4AB0-B248-FD575C4DC971}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "cocos2d.Framework.Shared", "cocos2d.Framework.Shared\cocos2d.Framework.Shared.shproj", "{72F8364A-2597-4884-A1BF-10EBC663CBAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zlib.net", "zlib.net\zlib.net.csproj", "{DD2B6A50-6904-4E90-B419-0B3EBEEB7E36}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "cocos2d-xna.Shared", "cocos2d-xna.Shared\cocos2d-xna.Shared.shproj", "{47977E76-CCF6-4B6A-9A4F-DBE7C1845549}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cocos2d.Framework.iOS", "cocos2d.Framework.iOS\cocos2d.Framework.iOS.csproj", "{714B95DF-F9C2-4BB8-A34F-267CA46001FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cocos2d-xna.iOS", "cocos2d-xna.iOS\cocos2d-xna.iOS.csproj", "{E1677C80-06DA-4280-B29B-ED71358AB8D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosDenshion.iOS", "CocosDenshion.iOS\CocosDenshion.iOS.csproj", "{C3DE77C7-0972-4AB0-B248-FD575C4DC971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zlib.net.iOS", "zlib.net.iOS\zlib.net.iOS.csproj", "{DD2B6A50-6904-4E90-B419-0B3EBEEB7E36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zlib.net.Android", "zlib.net.Android\zlib.net.Android.csproj", "{C822FAB9-F5D5-4B6C-8F81-C13C1DA89A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosDenshion.Android", "CocosDenshion.Android\CocosDenshion.Android.csproj", "{AC20A054-A29A-4F79-B09F-99DBB8C7E93F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cocos2d.Framework.Android", "cocos2d.Framework.Android\cocos2d.Framework.Android.csproj", "{8A588AD9-FE90-4BD2-BD16-D613CA7DBDFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cocos2d-xna.Android", "cocos2d-xna.Android\cocos2d-xna.Android.csproj", "{6EEB37E2-1FCC-4A2B-8BBD-3E88DE3C654D}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		cocos2d-xna.Shared\cocos2d-xna.Shared.projitems*{47977e76-ccf6-4b6a-9a4f-dbe7c1845549}*SharedItemsImports = 13
+		CocosDenshion.Shared\CocosDenshion.Shared.projitems*{525276fd-e3d0-4190-9be9-6cd6997a8f5d}*SharedItemsImports = 13
+		cocos2d-xna.Shared\cocos2d-xna.Shared.projitems*{6eeb37e2-1fcc-4a2b-8bbd-3e88de3c654d}*SharedItemsImports = 4
+		cocos2d.Framework.Shared\cocos2d.Framework.Shared.projitems*{714b95df-f9c2-4bb8-a34f-267ca46001fd}*SharedItemsImports = 4
+		cocos2d.Framework.Shared\cocos2d.Framework.Shared.projitems*{72f8364a-2597-4884-a1bf-10ebc663cbae}*SharedItemsImports = 13
+		cocos2d.Framework.Shared\cocos2d.Framework.Shared.projitems*{8a588ad9-fe90-4bd2-bd16-d613ca7dbdfe}*SharedItemsImports = 4
+		CocosDenshion.Shared\CocosDenshion.Shared.projitems*{ac20a054-a29a-4f79-b09f-99dbb8c7e93f}*SharedItemsImports = 4
+		zlib.net.Shared\zlib.net.Shared.projitems*{baae46b0-5347-4f05-9391-4c694e83ebde}*SharedItemsImports = 13
+		CocosDenshion.Shared\CocosDenshion.Shared.projitems*{c3de77c7-0972-4ab0-b248-fd575c4dc971}*SharedItemsImports = 4
+		zlib.net.Shared\zlib.net.Shared.projitems*{c822fab9-f5d5-4b6c-8f81-c13c1da89a42}*SharedItemsImports = 4
+		zlib.net.Shared\zlib.net.Shared.projitems*{dd2b6a50-6904-4e90-b419-0b3ebeeb7e36}*SharedItemsImports = 4
+		cocos2d-xna.Shared\cocos2d-xna.Shared.projitems*{e1677c80-06da-4280-b29b-ed71358ab8d3}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		AppStore|Any CPU = AppStore|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E1677C80-06DA-4280-B29B-ED71358AB8D3}.AppStore|Any CPU.ActiveCfg = AppStore|Any CPU
-		{E1677C80-06DA-4280-B29B-ED71358AB8D3}.AppStore|Any CPU.Build.0 = AppStore|Any CPU
-		{E1677C80-06DA-4280-B29B-ED71358AB8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1677C80-06DA-4280-B29B-ED71358AB8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1677C80-06DA-4280-B29B-ED71358AB8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1677C80-06DA-4280-B29B-ED71358AB8D3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{714B95DF-F9C2-4BB8-A34F-267CA46001FD}.AppStore|Any CPU.ActiveCfg = AppStore|Any CPU
-		{714B95DF-F9C2-4BB8-A34F-267CA46001FD}.AppStore|Any CPU.Build.0 = AppStore|Any CPU
+		{714B95DF-F9C2-4BB8-A34F-267CA46001FD}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{714B95DF-F9C2-4BB8-A34F-267CA46001FD}.AppStore|Any CPU.Build.0 = Release|Any CPU
 		{714B95DF-F9C2-4BB8-A34F-267CA46001FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{714B95DF-F9C2-4BB8-A34F-267CA46001FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{714B95DF-F9C2-4BB8-A34F-267CA46001FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{714B95DF-F9C2-4BB8-A34F-267CA46001FD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C3DE77C7-0972-4AB0-B248-FD575C4DC971}.AppStore|Any CPU.ActiveCfg = AppStore|Any CPU
-		{C3DE77C7-0972-4AB0-B248-FD575C4DC971}.AppStore|Any CPU.Build.0 = AppStore|Any CPU
+		{E1677C80-06DA-4280-B29B-ED71358AB8D3}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{E1677C80-06DA-4280-B29B-ED71358AB8D3}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{E1677C80-06DA-4280-B29B-ED71358AB8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1677C80-06DA-4280-B29B-ED71358AB8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1677C80-06DA-4280-B29B-ED71358AB8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1677C80-06DA-4280-B29B-ED71358AB8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3DE77C7-0972-4AB0-B248-FD575C4DC971}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DE77C7-0972-4AB0-B248-FD575C4DC971}.AppStore|Any CPU.Build.0 = Release|Any CPU
 		{C3DE77C7-0972-4AB0-B248-FD575C4DC971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C3DE77C7-0972-4AB0-B248-FD575C4DC971}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3DE77C7-0972-4AB0-B248-FD575C4DC971}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3DE77C7-0972-4AB0-B248-FD575C4DC971}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD2B6A50-6904-4E90-B419-0B3EBEEB7E36}.AppStore|Any CPU.ActiveCfg = AppStore|Any CPU
-		{DD2B6A50-6904-4E90-B419-0B3EBEEB7E36}.AppStore|Any CPU.Build.0 = AppStore|Any CPU
+		{DD2B6A50-6904-4E90-B419-0B3EBEEB7E36}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2B6A50-6904-4E90-B419-0B3EBEEB7E36}.AppStore|Any CPU.Build.0 = Release|Any CPU
 		{DD2B6A50-6904-4E90-B419-0B3EBEEB7E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DD2B6A50-6904-4E90-B419-0B3EBEEB7E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD2B6A50-6904-4E90-B419-0B3EBEEB7E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD2B6A50-6904-4E90-B419-0B3EBEEB7E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C822FAB9-F5D5-4B6C-8F81-C13C1DA89A42}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{C822FAB9-F5D5-4B6C-8F81-C13C1DA89A42}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{C822FAB9-F5D5-4B6C-8F81-C13C1DA89A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C822FAB9-F5D5-4B6C-8F81-C13C1DA89A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C822FAB9-F5D5-4B6C-8F81-C13C1DA89A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C822FAB9-F5D5-4B6C-8F81-C13C1DA89A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC20A054-A29A-4F79-B09F-99DBB8C7E93F}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{AC20A054-A29A-4F79-B09F-99DBB8C7E93F}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{AC20A054-A29A-4F79-B09F-99DBB8C7E93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC20A054-A29A-4F79-B09F-99DBB8C7E93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC20A054-A29A-4F79-B09F-99DBB8C7E93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC20A054-A29A-4F79-B09F-99DBB8C7E93F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A588AD9-FE90-4BD2-BD16-D613CA7DBDFE}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{8A588AD9-FE90-4BD2-BD16-D613CA7DBDFE}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{8A588AD9-FE90-4BD2-BD16-D613CA7DBDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A588AD9-FE90-4BD2-BD16-D613CA7DBDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A588AD9-FE90-4BD2-BD16-D613CA7DBDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A588AD9-FE90-4BD2-BD16-D613CA7DBDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EEB37E2-1FCC-4A2B-8BBD-3E88DE3C654D}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{6EEB37E2-1FCC-4A2B-8BBD-3E88DE3C654D}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{6EEB37E2-1FCC-4A2B-8BBD-3E88DE3C654D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EEB37E2-1FCC-4A2B-8BBD-3E88DE3C654D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EEB37E2-1FCC-4A2B-8BBD-3E88DE3C654D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EEB37E2-1FCC-4A2B-8BBD-3E88DE3C654D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FCB434C-B1A2-4916-B10B-412BF1660566}
 	EndGlobalSection
 EndGlobal
