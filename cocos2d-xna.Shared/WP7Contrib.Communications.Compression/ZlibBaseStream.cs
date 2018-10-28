@@ -82,6 +82,27 @@ namespace WP7Contrib.Communications.Compression
             }
             throw new ZlibException("Not a valid GZIP stream.");
         }
+#if WINDOWS_UWP
+        public void Close()
+        {
+            if (this._stream != null)
+            {
+                try
+                {
+                    this.finish();
+                }
+                finally
+                {
+                    this.end();
+                    if (!this._leaveOpen)
+                    {
+                        this._stream.Dispose();
+                    }
+                    this._stream = null;
+                }
+            }
+        }
+#else
 
         public override void Close()
         {
@@ -102,7 +123,7 @@ namespace WP7Contrib.Communications.Compression
                 }
             }
         }
-
+#endif
         private void end()
         {
             if (this.z != null)

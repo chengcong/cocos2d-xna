@@ -105,7 +105,27 @@ namespace ComponentAce.Compression.Libs.zlib
 			this.z.deflateInit(level);
 			this.compress = true;
 		}
-
+#if WINDOWS_UWP
+        public void Close()
+        {
+            try
+            {
+                try
+                {
+                    this.finish();
+                }
+                catch
+                {
+                }
+            }
+            finally
+            {
+                this.end();
+                this.out_Renamed.Dispose();
+                this.out_Renamed = null;
+            }
+        }
+#else
 		public override void Close()
 		{
 			try
@@ -125,8 +145,8 @@ namespace ComponentAce.Compression.Libs.zlib
 				this.out_Renamed = null;
 			}
 		}
-
-		public virtual void end()
+#endif
+        public virtual void end()
 		{
 			if (!this.compress)
 			{

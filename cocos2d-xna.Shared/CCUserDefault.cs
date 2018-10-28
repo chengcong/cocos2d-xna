@@ -44,8 +44,12 @@ public class CCUserDefault
 		using (StreamWriter streamWriter = new StreamWriter(new IsolatedStorageFileStream(CCUserDefault.XML_FILE_NAME, FileMode.Create, FileAccess.Write, this.myIsolatedStorage)))
 		{
 			streamWriter.WriteLine("<?xml version=\"1.0\" encoding=\"utf-8\"?><userDefaultRoot></userDefaultRoot>");
-			streamWriter.Close();
-		}
+#if WINDOWS_UWP
+            streamWriter.Dispose();
+#else
+            streamWriter.Close();
+#endif
+        }
 		return flag;
 	}
 

@@ -385,9 +385,13 @@ namespace cocos2d
 			int count = this.m_pobScenesStack.Count;
 			if (count == 0)
 			{
-				//CCApplication.sharedApplication().Game.Exit();
+                //CCApplication.sharedApplication().Game.Exit();
+#if WINDOWS_UWP
+                Windows.ApplicationModel.Core.CoreApplication.Exit();
+#else
                 Environment.Exit(0);
-				this.end();
+#endif
+                this.end();
 				return;
 			}
 			this.m_bSendCleanupToScene = true;

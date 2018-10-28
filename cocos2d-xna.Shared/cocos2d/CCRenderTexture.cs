@@ -171,12 +171,20 @@ namespace cocos2d
 
 		public bool saveBuffer(string szFilePath, int x, int y, int nWidth, int nHeight)
 		{
+#if WINDOWS_UWP
+            throw new Exception();
+#else
 			throw new NotFiniteNumberException();
-		}
+#endif
+        }
 
-		public bool saveBuffer(int format, string name, int x, int y, int nWidth, int nHeight)
+        public bool saveBuffer(int format, string name, int x, int y, int nWidth, int nHeight)
 		{
-			throw new NotFiniteNumberException();
+#if WINDOWS_UWP
+            throw new Exception();
+#else
+            throw new NotFiniteNumberException();
+#endif
 		}
 	}
 }

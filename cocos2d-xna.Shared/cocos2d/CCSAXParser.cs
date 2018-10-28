@@ -29,8 +29,11 @@ namespace cocos2d
 
 		public bool parse(string pszFile)
 		{
-			Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+#if WINDOWS_UWP
+#else
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 			Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
+#endif
 			CCContent cCContent = CCApplication.sharedApplication().content.Load<CCContent>(pszFile);
 			string content = cCContent.Content;
 			if (cCContent == null)

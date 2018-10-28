@@ -71,12 +71,21 @@ namespace ComponentAce.Compression.Libs.zlib
 			this.z.avail_in = 0;
 		}
 
-		public override void Close()
-		{
-			this.in_Renamed.Close();
-		}
 
-		internal void InitBlock()
+#if WINDOWS_UWP
+        public  void Close()
+        {
+            this.in_Renamed.Dispose();
+        }
+#else
+            public override void Close()
+		{
+            this.in_Renamed.Close();
+            }
+#endif
+
+
+        internal void InitBlock()
 		{
 			this.flush = 0;
 			this.buf = new byte[this.bufsize];

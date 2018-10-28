@@ -37,8 +37,12 @@ namespace cocos2d
 		{
 			CCSpriteFrame cCSpriteFrame = CCSpriteFrame.frameWithTexture(pobTexture, rect);
 			this.m_pobFrames.Add(cCSpriteFrame);
-			throw new NotFiniteNumberException();
-		}
+#if WINDOWS_UWP
+            throw new Exception();
+#else
+            throw new NotFiniteNumberException();
+#endif
+        }
 
 		public static CCAnimation animation()
 		{
