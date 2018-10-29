@@ -1,5 +1,10 @@
 ﻿# cocos2d-xna 跨平台库
 使用本库可以方便的将WP7游戏移植到iOS、Android、UWP、Windows桌面平台
+Nuget：
+https://www.nuget.org/packages/cocos2d-xna.Android
+https://www.nuget.org/packages/cocos2d-xna.iOS
+https://www.nuget.org/packages/cocos2d-xna.Desktop
+
 安装要求：
 1. monogame 3.5.1 http://www.monogame.net/releases/v3.5.1/MonoGameSetup.exe
 2. Visual Studio 2017
