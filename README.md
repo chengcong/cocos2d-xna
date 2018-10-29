@@ -11,6 +11,10 @@ https://www.nuget.org/packages/cocos2d-xna.Desktop<br>
 3. Xamarin 4.11.0.776
 4. XCode 10 macOS 10.13.6 Xamarin.iOS 12.0.0.15
 5. Xamarin.Android 9.0.0.19
+
+使用说明：
+看HelloCocos2d.Shared项目中的代码
+
 中文支持需要参考https://www.xnadevelop.com/ios/use-chinese-in-monogame/
 
 QQ交流群：https://jq.qq.com/?_wv=1027&k=4BwGEoV
