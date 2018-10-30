@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{033DB2A7-0FBC-4C63-BD96-BD880D25E23A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>tests</RootNamespace>
+    <AssemblyName>tests</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework.Net, Version=3.5.1.1679, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\animations\grossini.plist.xml" />
+    <Content Include="Content\animations\images\dragon_animation-hd.png" />
+    <Content Include="Content\animations\images\dragon_animation.png" />
+    <Content Include="Content\animations\images\ghosts.png" />
+    <Content Include="Content\animations\images\grossini-aliases.png" />
+    <Content Include="Content\animations\images\grossini.png" />
+    <Content Include="Content\animations\images\grossini_blue.png" />
+    <Content Include="Content\animations\images\grossini_family.png" />
+    <Content Include="Content\animations\images\grossini_gray.png" />
+    <Content Include="Content\fonts\fnt\images\arial16.png" />
+    <Content Include="Content\fonts\fnt\images\bitmapFontTest.png" />
+    <Content Include="Content\fonts\fnt\images\bitmapFontTest2.png" />
+    <Content Include="Content\fonts\fnt\images\bitmapFontTest3.png" />
+    <Content Include="Content\fonts\fnt\images\bitmapFontTest4.png" />
+    <Content Include="Content\fonts\fnt\images\bitmapFontTest5.png" />
+    <Content Include="Content\fonts\fnt\images\fps_images-hd.png" />
+    <Content Include="Content\fonts\fnt\images\fps_images.png" />
+    <Content Include="Content\fonts\fnt\images\futura-48.png" />
+    <Content Include="Content\fonts\fnt\images\konqa32-hd.png" />
+    <Content Include="Content\fonts\fnt\images\konqa32.png" />
+    <Content Include="Content\fonts\fnt\images\larabie-16-hd.png" />
+    <Content Include="Content\fonts\fnt\images\larabie-16.png" />
+    <Content Include="Content\fonts\fnt\images\tuffy_bold_italic-charmap-hd.png" />
+    <Content Include="Content\fonts\fnt\images\tuffy_bold_italic-charmap.png" />
+    <Content Include="Content\Images\atlastest.png" />
+    <Content Include="Content\Images\b1-hd.png" />
+    <Content Include="Content\Images\b1.png" />
+    <Content Include="Content\Images\b2-hd.png" />
+    <Content Include="Content\Images\b2.png" />
+    <Content Include="Content\Images\background.png" />
+    <Content Include="Content\Images\background1-hd.png" />
+    <Content Include="Content\Images\background1.png" />
+    <Content Include="Content\Images\background2-hd.png" />
+    <Content Include="Content\Images\background2.png" />
+    <Content Include="Content\Images\background3-hd.png" />
+    <Content Include="Content\Images\background3.png" />
+    <Content Include="Content\Images\ball-hd.png" />
+    <Content Include="Content\Images\ball.png" />
+    <Content Include="Content\Images\bitmapFontTest3.png" />
+    <Content Include="Content\Images\blocks-hd.png" />
+    <Content Include="Content\Images\blocks.png" />
+    <Content Include="Content\Images\btn-about-normal.png" />
+    <Content Include="Content\Images\btn-about-selected.png" />
+    <Content Include="Content\Images\btn-highscores-normal.png" />
+    <Content Include="Content\Images\btn-highscores-selected.png" />
+    <Content Include="Content\Images\btn-play-normal.png" />
+    <Content Include="Content\Images\btn-play-selected.png" />
+    <Content Include="Content\Images\close-hd.png" />
+    <Content Include="Content\Images\close.png" />
+    <Content Include="Content\Images\Comet.png" />
+    <Content Include="Content\Images\f1-hd.png" />
+    <Content Include="Content\Images\f1.png" />
+    <Content Include="Content\Images\f2-hd.png" />
+    <Content Include="Content\Images\f2.png" />
+    <Content Include="Content\Images\fire-grayscale.png" />
+    <Content Include="Content\Images\fire.png" />
+    <Content Include="Content\Images\Fog.png" />
+    <Content Include="Content\Images\fps_images.png" />
+    <Content Include="Content\Images\grossini-hd.png" />
+    <Content Include="Content\Images\grossini.png" />
+    <Content Include="Content\Images\grossinis_sister1-hd.png" />
+    <Content Include="Content\Images\grossinis_sister1-testalpha.png" />
+    <Content Include="Content\Images\grossinis_sister1.png" />
+    <Content Include="Content\Images\grossinis_sister2-hd.png" />
+    <Content Include="Content\Images\grossinis_sister2.png" />
+    <Content Include="Content\Images\grossini_dance_01.png" />
+    <Content Include="Content\Images\grossini_dance_02.png" />
+    <Content Include="Content\Images\grossini_dance_03.png" />
+    <Content Include="Content\Images\grossini_dance_04.png" />
+    <Content Include="Content\Images\grossini_dance_05.png" />
+    <Content Include="Content\Images\grossini_dance_06.png" />
+    <Content Include="Content\Images\grossini_dance_07.png" />
+    <Content Include="Content\Images\grossini_dance_08.png" />
+    <Content Include="Content\Images\grossini_dance_09.png" />
+    <Content Include="Content\Images\grossini_dance_10.png" />
+    <Content Include="Content\Images\grossini_dance_11.png" />
+    <Content Include="Content\Images\grossini_dance_12.png" />
+    <Content Include="Content\Images\grossini_dance_13.png" />
+    <Content Include="Content\Images\grossini_dance_14.png" />
+    <Content Include="Content\Images\grossini_dance_atlas-hd.png" />
+    <Content Include="Content\Images\grossini_dance_atlas-mono.png" />
+    <Content Include="Content\Images\grossini_dance_atlas.png" />
+    <Content Include="Content\Images\grossini_dance_atlas_nomipmap.png" />
+    <Content Include="Content\Images\HelloWorld.png" />
+    <Content Include="Content\Images\Icon.png" />
+    <Content Include="Content\Images\landscape-1024x1024.png" />
+    <Content Include="Content\Images\menuitemsprite.png" />
+    <Content Include="Content\Images\paddle-hd.png" />
+    <Content Include="Content\Images\paddle.png" />
+    <Content Include="Content\Images\particles-hd.png" />
+    <Content Include="Content\Images\particles.png" />
+    <Content Include="Content\Images\pattern1.png" />
+    <Content Include="Content\Images\Pea.png" />
+    <Content Include="Content\Images\piece.png" />
+    <Content Include="Content\Images\PlanetCute-1024x1024.png" />
+    <Content Include="Content\Images\powered.png" />
+    <Content Include="Content\Images\r1-hd.png" />
+    <Content Include="Content\Images\r1.png" />
+    <Content Include="Content\Images\r2-hd.png" />
+    <Content Include="Content\Images\r2.png" />
+    <Content Include="Content\Images\SendScoreButton.png" />
+    <Content Include="Content\Images\SendScoreButtonPressed.png" />
+    <Content Include="Content\Images\snow.png" />
+    <Content Include="Content\Images\SpinningPeas.png" />
+    <Content Include="Content\Images\SpookyPeas.png" />
+    <Content Include="Content\Images\spritesheet1.png" />
+    <Content Include="Content\Images\stars-grayscale.png" />
+    <Content Include="Content\Images\stars.png" />
+    <Content Include="Content\Images\stars2-grayscale.png" />
+    <Content Include="Content\Images\stars2.png" />
+    <Content Include="Content\Images\streak.png" />
+    <Content Include="Content\Images\test-rgba1.png" />
+    <Content Include="Content\Images\test_blend.png" />
+    <Content Include="Content\Images\test_image.png" />
+    <Content Include="Content\Images\texture1024x1024.png" />
+    <Content Include="Content\Images\texture2048x2048.png" />
+    <Content Include="Content\Images\texture512x512.png" />
+    <Content Include="Content\Sounds\background.mp3" />
+    <Content Include="Content\Sounds\effect1.wav" />
+    <Content Include="Content\TileMaps\fixed-ortho-test2.png" />
+    <Content Include="Content\TileMaps\hexa-tiles.png" />
+    <Content Include="Content\TileMaps\iso-test.png" />
+    <Content Include="Content\TileMaps\iso-test1.png" />
+    <Content Include="Content\TileMaps\iso-test2.png" />
+    <Content Include="Content\TileMaps\iso.png" />
+    <Content Include="Content\TileMaps\ortho-test1.png" />
+    <Content Include="Content\TileMaps\ortho-test1_bw.png" />
+    <Content Include="Content\TileMaps\ortho-test2.png" />
+    <Content Include="Content\TileMaps\tiles-hd.png" />
+    <Content Include="Content\TileMaps\tiles.png" />
+    <Content Include="Content\TileMaps\tmw_desert_spacing-hd.png" />
+    <Content Include="Content\TileMaps\tmw_desert_spacing.png" />
+    <Content Include="Content\zwoptex\images\grossini-generic.png" />
+    <Content Include="Content\zwoptex\images\grossini.png" />
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="Content\animations\ghosts.plist" />
+    <None Include="Content\animations\grossini-aliases.plist" />
+    <None Include="Content\animations\grossini..ztp" />
+    <None Include="Content\animations\grossini.plist" />
+    <None Include="Content\animations\grossini_blue.plist" />
+    <None Include="Content\animations\grossini_family.plist" />
+    <None Include="Content\animations\grossini_gray.plist" />
+    <None Include="Content\fonts\Arial.spritefont" />
+    <None Include="Content\fonts\fnt\arial16.fnt" />
+    <None Include="Content\fonts\fnt\bitmapFontTest.fnt" />
+    <None Include="Content\fonts\fnt\bitmapFontTest2.fnt" />
+    <None Include="Content\fonts\fnt\bitmapFontTest3.fnt" />
+    <None Include="Content\fonts\fnt\bitmapFontTest4.fnt" />
+    <None Include="Content\fonts\fnt\bitmapFontTest5.fnt" />
+    <None Include="Content\fonts\fnt\futura-48.fnt" />
+    <None Include="Content\fonts\fnt\konqa32-hd.fnt" />
+    <None Include="Content\fonts\fnt\konqa32.fnt" />
+    <None Include="Content\Images\BoilingFoam.plist" />
+    <None Include="Content\Images\BurstPipe.plist" />
+    <None Include="Content\Images\CometPlist.plist" />
+    <None Include="Content\Images\debian.plist" />
+    <None Include="Content\Images\ExplodingRing.plist" />
+    <None Include="Content\Images\FlowerPlist.plist" />
+    <None Include="Content\Images\GalaxyPlist.plist" />
+    <None Include="Content\Images\LavaFlow.plist" />
+    <None Include="Content\Images\Phoenix.plist" />
+    <None Include="Content\Images\SpinningPeasPlist.plist" />
+    <None Include="Content\Images\Spiral.plist" />
+    <None Include="Content\Images\SpookyPeasPlist.plist" />
+    <None Include="Content\Images\Upsidedown.plist" />
+    <None Include="Content\TileMaps\arial16.fnt" />
+    <None Include="Content\TileMaps\hexa-test1.tmx" />
+    <None Include="Content\TileMaps\iso-test-bug787.tmx" />
+    <None Include="Content\TileMaps\iso-test-movelayer.tmx" />
+    <None Include="Content\TileMaps\iso-test-objectgroup.tmx" />
+    <None Include="Content\TileMaps\iso-test-vertexz.tmx" />
+    <None Include="Content\TileMaps\iso-test-zorder.tmx" />
+    <None Include="Content\TileMaps\iso-test01.tmx" />
+    <None Include="Content\TileMaps\iso-test11.tmx" />
+    <None Include="Content\TileMaps\iso-test2-uncompressed.tmx" />
+    <None Include="Content\TileMaps\iso-test22.tmx" />
+    <None Include="Content\TileMaps\levelmap.tga" />
+    <None Include="Content\TileMaps\ortho-objects.tmx" />
+    <None Include="Content\TileMaps\orthogonal-test-movelayer.tmx" />
+    <None Include="Content\TileMaps\orthogonal-test-vertexz.tmx" />
+    <None Include="Content\TileMaps\orthogonal-test-zorder.tmx" />
+    <None Include="Content\TileMaps\orthogonal-test1.tmx" />
+    <None Include="Content\TileMaps\orthogonal-test2.tmx" />
+    <None Include="Content\TileMaps\orthogonal-test3.tmx" />
+    <None Include="Content\TileMaps\orthogonal-test4-hd.tmx" />
+    <None Include="Content\TileMaps\orthogonal-test4.tmx" />
+    <None Include="Content\TileMaps\orthogonal-test5.tmx" />
+    <None Include="Content\TileMaps\orthogonal-test6-hd.tmx" />
+    <None Include="Content\TileMaps\orthogonal-test6.tmx" />
+    <None Include="Content\TileMaps\test-object-layer.tmx" />
+    <None Include="Content\zwoptex\grossini-generic.plist" />
+    <None Include="Content\zwoptex\grossini.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cocos2d-xna.Desktop\cocos2d-xna.Desktop.csproj">
+      <Project>{9482d146-66c8-4ecb-a0a8-8189ea27866c}</Project>
+      <Name>cocos2d-xna.Desktop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d.Framework.Desktop\cocos2d.Framework.Desktop.csproj">
+      <Project>{d3eda3c5-0da0-4135-8fec-1ca216d10179}</Project>
+      <Name>cocos2d.Framework.Desktop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CocosDenshion.Desktop\CocosDenshion.Desktop.csproj">
+      <Project>{37b96dcc-9242-48b5-be75-ffa71b56b298}</Project>
+      <Name>CocosDenshion.Desktop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\zlib.net.Desktop\zlib.net.Desktop.csproj">
+      <Project>{8ad7fd5d-f147-4549-b426-55a7e8657909}</Project>
+      <Name>zlib.net.Desktop</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Content\TileMaps\orthogonal-test11.tsx" />
+  </ItemGroup>
+  <Import Project="..\tests.Shared\tests.Shared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
