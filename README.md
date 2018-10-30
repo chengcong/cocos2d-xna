@@ -6,6 +6,7 @@ Nuget：
 https://www.nuget.org/packages/cocos2d-xna.Android<br>
 https://www.nuget.org/packages/cocos2d-xna.iOS<br>
 https://www.nuget.org/packages/cocos2d-xna.Desktop<br>
+https://www.nuget.org/packages/cocos2d-xna.UWP<br>
 
 安装要求(Installation Requirements)：
 1. monogame 3.5.1 http://www.monogame.net/releases/v3.5.1/MonoGameSetup.exe

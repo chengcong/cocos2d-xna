@@ -31,8 +31,8 @@ namespace cocos2d
 		{
 #if WINDOWS_UWP
 #else
-            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
-			Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
+   //         Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+			//Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
 #endif
 			CCContent cCContent = CCApplication.sharedApplication().content.Load<CCContent>(pszFile);
 			string content = cCContent.Content;
